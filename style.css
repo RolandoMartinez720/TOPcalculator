@@ -1,0 +1,15 @@
+.grid{
+    display:grid;
+    border:solid black 5px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.container{
+    margin:auto;
+    width:10rem;
+    height:10rem;
+    gap:.5rem;
+    padding:1rem 1rem;
+}
+.add{
+    grid-row: span 2;
+}
