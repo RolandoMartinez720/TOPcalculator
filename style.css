@@ -13,3 +13,8 @@
 .add{
     grid-row: span 2;
 }
+
+.display-box{
+    grid-column: span 4;
+    margin-bottom: 1rem;
+}
