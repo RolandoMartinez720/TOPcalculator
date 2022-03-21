@@ -14,12 +14,8 @@ function populate(e){ //takes the target value from the number button pressed
 }
 
 
-function addNumbers(...num){
-
-  let sum=num.reduce((prev,curr)=>
-      prev+curr,0);
-
-return sum;
+function add(a,b){
+    return a+b;
 }
 
 function subtract(a,b){
@@ -30,7 +26,6 @@ function multiply(a,b){
     return a*b;
 }
 
-function exponent(a,b){
-    return a**b;
+function divide(a,b){
+    return a/b;
 }
-console.log(subtract(2,3));
