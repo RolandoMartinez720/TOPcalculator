@@ -31,3 +31,17 @@ button{
     box-shadow: 2px;
 }
 
+.clear{
+    grid-column: span 3;
+}
+
+button:hover{
+    background-color: rgba(68, 129, 182, 0.562);
+    color: white;
+    
+}
+
+.decimal{
+    font-weight: bold;
+    font-size: large;
+}
